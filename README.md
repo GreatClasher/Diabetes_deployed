@@ -1,7 +1,7 @@
 # Diabetes Prediction Project
 
 <p align="center">
-  <img src="https://postimg.cc/2b89BQ5B)" alt="Diabetes Prediction">
+  <img src="https://i.postimg.cc/w1WY4jsJ/Screenshot-85.png" alt="Diabetes Prediction">
 </p>
 
 ## Overview
