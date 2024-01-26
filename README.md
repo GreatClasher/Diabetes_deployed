@@ -1,16 +1,53 @@
-# lab-flask
+# Diabetes Prediction Project
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
+![Diabetes Prediction](https://i.postimg.cc/w1WY4jsJ/Screenshot-85.png)
 
+## Overview
 
-To run flask application 
+This project focuses on predicting diabetes using machine learning. The core functionality is built on a machine learning model, and the user interacts with the model through a Flask web application.
 
-```
-python app.py
-```
+## Features
 
+- **User-Friendly Interface**: An intuitive web form allows users to input relevant health data for predicting diabetes.
+- **Machine Learning Prediction**: The application utilizes a pre-trained machine learning model to provide predictions on the likelihood of diabetes based on input parameters.
 
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.pwskills.app:5000/
-```
+## How to Use
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/GreaClasher/diabetes-deployed.git
+   cd diabetes-prediction
+   pip install -r requirements.txt
+   
+   ```bash
+   python application.py
+
+## Deployment on AWS Beanstalk with CodePipeline
+
+### Seamless Continuous Integration and Deployment
+
+This project is seamlessly deployed on AWS Elastic Beanstalk using AWS CodePipeline, ensuring a smooth and automated continuous integration and deployment process.
+
+#### Elastic Beanstalk Configuration:
+
+The Flask application is expertly deployed on AWS Elastic Beanstalk, with all necessary configurations conveniently stored in the `.ebextensions` folder. This ensures a hassle-free and optimized deployment on the AWS infrastructure.
+
+#### CodePipeline Setup:
+
+AWS CodePipeline takes the lead in automating both the build and deployment processes. The pipeline is finely tuned to monitor changes in the GitHub repository, triggering the deployment pipeline whenever updates are pushed.
+
+- **Source Stage:**
+  - Listens attentively for changes in the GitHub repository.
+
+- **Build Stage:**
+  - Leverages AWS CodeBuild to systematically build the application, ensuring a reliable and efficient process.
+
+- **Deploy Stage:**
+  - Orchestrates the deployment process on AWS Elastic Beanstalk, seamlessly bringing the application to life on the cloud.
+
+## Contributor
+
+- [Your Name](https://github.com/GreatClasher)
+
+Feel free to contribute and enhance this project!
