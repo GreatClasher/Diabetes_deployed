@@ -1,6 +1,8 @@
 # Diabetes Prediction Project
 
-![Diabetes Prediction](https://i.postimg.cc/w1WY4jsJ/Screenshot-85.png)
+<p align="center">
+  <img src="https://i.postimg.cc/w1WY4jsJ/Screenshot-85.png" alt="Diabetes Prediction">
+</p>
 
 ## Overview
 
@@ -19,8 +21,6 @@ This project focuses on predicting diabetes using machine learning. The core fun
    git clone https://github.com/GreaClasher/diabetes-deployed.git
    cd diabetes-prediction
    pip install -r requirements.txt
-   
-   ```bash
    python application.py
 
 ## Deployment on AWS Beanstalk with CodePipeline
@@ -38,7 +38,7 @@ The Flask application is expertly deployed on AWS Elastic Beanstalk, with all ne
 AWS CodePipeline takes the lead in automating both the build and deployment processes. The pipeline is finely tuned to monitor changes in the GitHub repository, triggering the deployment pipeline whenever updates are pushed.
 
 - **Source Stage:**
-  - Listens attentively for changes in the GitHub repository.
+  - Listens attentively to changes in the GitHub repository.
 
 - **Build Stage:**
   - Leverages AWS CodeBuild to systematically build the application, ensuring a reliable and efficient process.
@@ -48,6 +48,6 @@ AWS CodePipeline takes the lead in automating both the build and deployment proc
 
 ## Contributor
 
-- [Your Name](https://github.com/GreatClasher)
+- [GreatClasher](https://github.com/GreatClasher)
 
 Feel free to contribute and enhance this project!
